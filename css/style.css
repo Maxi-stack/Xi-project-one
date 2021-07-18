@@ -1,0 +1,408 @@
+/*-------------html and body Styles-------*/
+
+html {
+    margin:    0 auto;
+    max-width: 1000px;
+    min-width: 780px;
+}
+
+body{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    }
+
+img {
+    max-width:100%;
+}
+
+/*-------------html and body Styles-------*/
+
+/*-------------@Media Desktop-------------*/
+
+@media(min-width: 1027px) {
+    body {
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+
+        }
+    
+    .headline {
+            font-size: 40px;
+        }
+        
+    .main-text{
+        flex: 3;
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    
+    .hero-img {
+        flex: 5;
+        }
+
+    .quotebox {
+        display: flex;
+        align-items: stretch;
+        }
+}
+/*-------------@Media Desktop-------------*/
+
+/*-------------@Media ipad----------------*/
+
+@media(max-width: 1026px) {
+    body {
+        margin: 0;
+        padding: 0px 10px 0px 10px;
+        }
+
+    .headline {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #flexhero {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .main-text{
+        flex: 3;
+        order: 2;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .description {
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .hero-img {
+        flex: 5;
+        order: 1;
+    }
+
+    .h3image {
+        font-size: 14px;
+    }
+    
+    img {
+        max-width:100%;
+        width: 100%;
+        height: auto;}
+    
+    .play-button {
+        margin: auto;
+    }
+}
+/*-------------@Media ipad----------------*/
+
+
+/*-------------Body Styles----------------*/
+body {
+    font-family: "Poppins",sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h2,h3,h4{
+    text-transform: capitalize;
+    margin: 0px 0px 0px 0px;
+}
+
+h1{
+    text-transform: capitalize;
+    margin: 50px 0px 20px 0px;
+}
+
+h3 {
+    text-align-last: center;
+}
+/*-------------Body Styles----------------*/
+
+
+/*-------------header items----------------*/
+
+.site-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: auto;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+
+.flexheader {
+    display: flex;
+    align-items: stretch;
+    }
+
+#flexheader {
+    /*display: flex;*/
+    margin: auto;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+.logo {
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    order: 1;
+    float: left;
+    height: 60px;
+    width: auto;
+    padding: 10px;
+    margin: 0px;
+}
+
+.logotext {
+    order: 2;
+    float: right;
+    font-size: 30px;
+    padding: 0px 20px 0px 5px;
+    margin: 0px;
+    color: rgb(122, 60, 60);
+
+}
+
+.navigation {
+    flex-grow: 1;
+    order: 2;
+    padding: 5px;
+}
+
+.navigation--item {
+    text-decoration: none;
+    color:rgb(122, 60, 60);
+    margin-left: 24px;
+}
+
+/*--Hover State Nav--*/
+.navigation--item:hover {
+    text-decoration: none;
+    color:rgb(65, 29, 29);
+}
+
+.navigation-button {
+    order: 3;
+    border: none;
+    border-radius: 2rem;
+    min-width: 150px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    height: 3rem;
+    font-family: "poppins";
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.navigation-button.navigation--item:hover {
+    background-color: rgb(65, 29, 29);
+    
+}
+/*-------------header items----------------*/
+
+
+
+/*-------------body items----------------*/
+
+
+/*-------------Hero Box----------------*/
+#flexhero {
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+}
+
+/*-------------Hero Text----------------*/
+.headline {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.main-text {
+    /*flex:4;*/
+    order: 1;
+}
+
+.main-text {
+    text-transform: capitalize;
+}
+
+.description {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    padding: 10px 36px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid coral;
+    color: coral;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.play-button .fa {
+    font-size: 1.25rem;
+    margin-right: 6px;
+}
+/*-------------Hero Text----------------*/
+
+
+
+/*-------------Hero Image----------------*/
+.hero-img {
+    /*flex:5;*/
+    order: 2;
+    justify-content: center;
+}
+
+/*-------------Hero Image----------------*/
+
+
+
+/*-------------Value Prop Text----------------*/
+
+.valuetext {
+    max-width: 70%;
+    margin: auto;
+}
+
+.h1value {
+    text-align-last: center;
+}
+/*-------------Value Prop Text----------------*/
+
+
+
+/*-----------Quotes-----------*/
+
+.quotebox {
+    align-items: stretch;
+    flex-wrap: wrap;
+    }
+
+.quotebox {
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+}
+
+/*to stretch the whole row*/
+.quoteheader {
+    flex-basis: 100%;
+}
+
+/*to centre and make capitals*/
+.quoteheader {
+    margin: auto;
+    text-align-last: center;
+}
+
+.box-1 {
+    flex:1;
+    order: 1;
+    padding: 0px 20px 0px 20px;
+}
+
+.box-2 {
+    flex:1;
+    order: 2;
+    padding: 0px 20px 0px 20px;
+
+}
+  
+.box-3 {
+    flex:1;
+    order: 3;
+    padding: 0px 20px 0px 20px;
+
+    
+}
+
+/*-----------Quotes-----------*/
+
+
+
+
+/*-----------Info Images-----------*/
+
+.imageheader {
+    flex-basis: 100%;
+}
+
+/*to centre and make capitals*/
+.imageheader {
+    text-align-last: center;
+}
+
+.fleximagebox {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.fleximagebox {
+        padding: 20px;
+        max-width: 70%;
+        margin: auto;
+    }
+
+.h3image {
+    text-align-last: center;
+}
+
+/*-----------Info Images------------*/
+/*-------------body items----------------*/
+
+
+
+/*-------------footer items----------------*/
+
+.flexfooterbox {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    flex:1;
+    text-align-last: left;
+    padding-left: 20px;
+    color: #555;
+}
+
+
+.socials-item {
+    margin-right: 10px;
+}
+
+.socials-item:hover {
+    color: #333;
+}
+
+.copyright {
+    flex:2;
+    padding-right: 30px;
+    text-align-last: right;  
+}
+/*-------------footer items----------------*/
