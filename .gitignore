@@ -5,3 +5,13 @@ img/grow.gif:Zone.Identifier
 img/insight.gif:Zone.Identifier
 img/learn.gif:Zone.Identifier
 img/sproutlogo.gif:Zone.Identifier
+*.Identifier
+node_modules/.bin/uuid
+node_modules/.bin/surge
+node_modules/.bin/mkdirp
+img/sproutlogo.gif:Zone.Identifier
+img/learn.gif:Zone.Identifier
+img/insight.gif:Zone.Identifier
+img/grow.gif:Zone.Identifier
+img/datagifclr.gif:Zone.Identifier
+img/animation_640_kr7bimj3.gif:Zone.Identifier
